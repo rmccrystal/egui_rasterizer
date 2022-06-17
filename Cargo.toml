@@ -6,11 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-egui = { path = "../egui/egui" }
+egui = { git = "https://github.com/emilk/egui" }
 tiny-skia = "0.6"
 
 [dev-dependencies]
-egui-winit = { path = "../egui/egui-winit" }
-eframe = { path = "../egui/eframe" }
+egui-winit = { git = "https://github.com/emilk/egui" }
+eframe = { git = "https://github.com/emilk/egui" }
 softbuffer = "0.1"
-egui_demo_lib = { path = "../egui/egui_demo_lib"}
+egui_demo_lib = { git = "https://github.com/emilk/egui" }
